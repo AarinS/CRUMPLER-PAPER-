@@ -29,10 +29,9 @@ function draw() {
   rectMode(CENTER);
   background(230);
  
-  paperObject.display();
-  groundObject.display();
-  dustbinObj.display();
-
+ groundObject.display();
+dustbinObject.display();
+paperObject.display();
 }
 function keyPressed(){
 	if(keyCode === UP_ARROW) {
