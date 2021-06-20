@@ -30,7 +30,7 @@ function draw() {
   background(230);
  
  groundObject.display();
-dustbinObject.display();
+dustbinObj.display();
 paperObject.display();
 }
 function keyPressed(){
